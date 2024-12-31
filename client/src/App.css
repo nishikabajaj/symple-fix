@@ -1,0 +1,36 @@
+.App {
+  background-image: url(./bgimage.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.App-logo {
+  height: 12vh;
+  pointer-events: none;
+  /* border: 2px solid red; */
+}
+
+Button {
+  font-family: 'Poppins';
+  font-size: 15px;
+  background-color: rgb(68, 156, 181);
+  margin: 0px;
+  padding: 5px 15px;
+  color: white;
+  border-radius: 15px;
+  border-style: double;
+  /* border: 2px solid red */;
+  
+}
+
+.Landing-header {
+  min-height: 100vh;
+  /* border: 2px solid red */;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(100px + 2vmin);
+  gap: 10px;
+}
